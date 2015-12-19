@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "name": "webpack-jquery-plugin",
+  "version": "1.0.0",
+  "description": "webpack boilerplate for a jquery plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaph/webpack-jquery-plugin.git"
+  },
+  "scripts": {
+    "lint": "eslint ./src/**/*.js",
+    "build": "gulp build"
+  },
+  "author": {
+    "name": "Raphael Castro",
+    "email": "rafaphcastro@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaph/webpack-jquery-plugin/issues"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.17",
+    "babel-eslint": "^5.0.0-beta6",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "del": "^2.2.0",
+    "eslint": "^1.10.3",
+    "extend": "^3.0.0",
+    "gulp": "^3.9.0",
+    "gulp-menu": "^0.2.2",
+    "webpack": "^1.12.9",
+    "webpack-stream": "^3.1.0"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4"
+  }
+}
